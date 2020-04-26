@@ -363,33 +363,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS untuk bagian extra3-wrapper sampai akhir */
 
 
@@ -456,4 +429,29 @@ body {
     }
 
 
+}
+
+#footer {
+    padding: 50px 0 30px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-leaf-col {
+    flex-basis: 50%;
+}
+
+.footer-right-col {
+    flex-basis: 50%;
 }
