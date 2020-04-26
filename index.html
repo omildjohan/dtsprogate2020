@@ -1,69 +1,273 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-A-comatible" content="IE=edge">
-    <title>DTS Progate J18</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <!-- #region Header : (omil) -->
-    <header>
-     <img class="logo" src="image/logo-2.png" alt="logo">
-     <nav></nav>
-         <ul class="nav_links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PROGATE</a></li>
-            <li><a href="#">TEAM</a></li>
-         </ul>
-     </nav>
-     <a class="cta" href="#"><button>Login</button></a>
-    </header>
-    
-    <header>
-      <div class="container">
-       
-      </div>
-    </header>
-    <!-- #endregion -->
+<html lang="en">
 
-    <!-- #region Bagian Utama : (Muzi) -->
-     <div class="top-wrapper">
-      <div class="container">
-        <div class="container">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DTS PROGATE J18</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="respon" href="respon.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- #region Header : (Muzi ID : 0447677091-9) -->
+
+  <section id="header">
+    <div class="container">
+      <img src="images/footer/LOGO FOOTER.png" class="logo">
+      <div class="header-text">
+        <h1>Belajar Coding From Zero to Hero</h1>
+        <span class="square"></span>
+        <p>Semua yang kamu butuhkan untuk memulai belajar coding, dan meningkatkan keahlian codingmu hingga mahir,
+          dengan alur belajar yang super jelas dan terarah</p>
+        <button class="common-btn">Hubungi kami</button>
+
+        <div class="line">
+          <span class="line-1"></span><br>
+          <span class="line-2"></span><br>
+          <span class="line-3"></span>
         </div>
       </div>
     </div>
-    <!-- #endregion -->
+  </section>
 
-    <!-- #region extra 1 : (Triana Rosita Dewi) -->
-    <div class="extra1-wrapper">
-      <div class="container">
-        
+  <!-- # END region Header : (Muzi ID : 0447677091-9 ) -->
+
+
+
+
+  <!-- #region Menu : (Yaumil Birri ID : 0447677181-8 ) -->
+  <nav id="sideNav">
+    <ul>
+      <li><a href="#">PROGATE J18</a></li>
+      <li><a href="#">MATERI</a></li>
+      <li><a href="#">TEAM</a></li>
+    </ul>
+  </nav>
+  <img src="images/menu.png" id="menuBtn">
+
+  <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function () {
+      if (sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+      } else {
+        sideNav.style.right = "-250px";
+      }
+    }
+  </script>
+  <!-- #End Menu : (Yaumil Birri ID : 0447677181-8 ) -->
+
+  <!---aboout-->
+  <!----RegionMenu Extra-weapen-1 Zuyyina Alfa Khoiri ID - 0447677151-257 -->
+
+  <section id="tentang">
+    <div class="tentang-kiri">
+      <img src="images/about.png">
+    </div>
+    <div class="tentang-kanan">
+      <div class="tentang-text">
+        <h1>Tentang kami</h1>
+        <p>J18 adalah media edukasi dan informasi tentang pemrograman dan teknologi. J18 dibangun untuk memfasilitasi
+          para
+          developer dalam mendapatkan informasi dan pengetahuan seputar pemrograman dan teknologi. Konten-konten yang
+          ada
+          di </p><br></br>
+
+        <div class="line">
+          <span class="line-1"></span><br>
+          <span class="line-2"></span><br>
+          <span class="line-3"></span>
+        </div>
+        <h3>J18 disusun sedemikian rupa dan dalam bahasa Indonesia agar mudah dipahami oleh para developer Indonesia.
+        </h3>
+
+      </div>
+  </section>
+  <!----END RegionMenu  Extra-weapen-1 Zuyyina Alfa Khoiri ID - 0447677151-257 -->
+
+
+  <!------fitur PROGATEJ18-------->
+  <!-- #region extra1-wrapper : (Triana Rosita Dewi: 0447677140-41) -->
+
+  <section id="fitur">
+    <div class="fitur-all">
+      <div class="fitur-1">
+        <img src="images/fitur/html.png">
+        <h4>HTML</h4>
+        <p>Hypertext Markup Language adalah sebuah bahasa markah yang digunakan untuk membuat sebuah halaman web,
+          menampilkan berbagai informasi di dalam sebuah penjelajah web Internet dan pemformatan hiperteks sederhana
+          yang ditulis dalam berkas format ASCII agar dapat menghasilkan tampilan wujud yang terintegrasi</p>
+      </div>
+      <div class="fitur-1">
+        <img src="images/fitur/css.png">
+        <h4>CSS</h4>
+        <p>Cascading Style Sheet merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih
+          terstruktur dan seragam. CSS bukan merupakan bahasa pemograman</p>
+      </div>
+      <div class="fitur-1">
+        <img src="images/fitur/java.png">
+        <h4>Java Script</h4>
+        <p>avaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat
+          bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox,
+          Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.</p>
       </div>
     </div>
-    <!-- #endregion -->
 
-    <!-- #region extra 2 : (wibby) -->
-    <div class="extra2-wrapper">
-        <div class="container">
-          
+    <div class="fitur-button">
+      <button class="common-btn">Hubungi kami Segera</button>
+    </div>
+  </section>
+  <!-- #End region extra1-wrapper : (Triana Rosita Dewi: 0447677140-41) -->
+
+  <!----TEAM-->
+  <!----REGION Extra3-wrapper : (Wibby :0447677121-311 ) ---->
+
+  <section class="team-section">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h1>Our Team</h1>
+          <p>Mantap Bujang</p>
         </div>
       </div>
-      <!-- #endregion -->
-
-    <!-- #region footer : (Zuyyina Alfa) -->
-    <footer>
-      <div class="container">
-        
+      <div class="row">
+        <div class="team-items">
+          <div class="item">
+            <img src="images/team/Omil.jpg" alt="team" />
+            <div class="inner">
+              <div class="info">
+                <h5>Yaumil Birri</h5>
+                <p>mengikuti pelatihan online academy sangat bermanfaat bagi pribadi saya</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/team/Triana.jpg" alt="team">
+            <div class="inner">
+              <div class="info">
+                <h5>Triana Rosita Dewi</h5>
+                <p>Saya tertarik mengikuti Pelatihan HTML, CSS dan JavaScript dengan harapan menambah skill
+                  saya di bidang IT.</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/team/Wibby.jpg" alt="team">
+            <div class="inner">
+              <div class="info">
+                <h5>Wibby Arif Rahmawan</h5>
+                <p>Hallo saya Wibby, saya minat untuk belajar HTML CSS Javascript ini untuk menambah ilmu
+                  dan semoga dapat berguna dalam pekerjaan saya kelak.</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/team/Turmuzi.jpg" alt="team">
+            <div class="inner">
+              <div class="info">
+                <h5>Turmuzi</h5>
+                <p>Belajar Programing HTML, CSS & Javascript itu gampang-gampang susah tapi menyenangkan</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/team/Abimanyu.jpg" alt="team">
+            <div class="inner">
+              <div class="info">
+                <h5>Abimanyu</h5>
+                <p>saya senang sekali mengikuti DTS Progate 2020</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/team/Zuyyina Alfa Khoiri.jpg" alt="team">
+            <div class="inner">
+              <div class="info">
+                <h5>Zuyyina Alfa Khoiri</h5>
+                <p>Belajar Programing HTML, CSS & Javascript itu sangat menarik dan menantang</p>
+                <div class="social-links">
+                  <a href=""><span class="fa fa-facebook"></span></a>
+                  <a href=""><span class="fa fa-twitter"></span></a>
+                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- #endregion -->
+    </div>
+  </section>
 
-  </body>
+
+  <div style="background-color:grey; height :2px; width : 1170px; margin: auto;"></div>
+  <div style="flex: 1; flex-direction: row;padding: 24px 100px ;">
+    <a href="index.html"><img style=margin-top:20px; height=40px width=40px src="images/footer/LOGO FOOTER.png"></a>
+    <span style="float: right;">
+      <p style="font-family :Arial, Helvetica, sans-serif; font-size :12px; padding-bottom :10px;">FOLLOW US :</p>
+      <a href="index.html"><img height="30px" width="30px" alt="facebook" src="images/footer/facebook.png"></a>
+      <a href="index.html"><img height="32px" width="32px" alt="twitter" src="images/footer/twitter.png"></a>
+      <a href="index.html"><img height="32px" width="32px" alt="instagram" src="images/footer/instagram.png"></a>
+    </span>
+    <div
+      style="color :black ; text-align:center;font-size:10px; font-family: Arial, Helvetica, sans-serif; flex:1; flex-direction:column;">
+      <p href="index.html">| Tentang Kami |</p>
+      <p href="index.html"> Karir </p>
+      <p href="index.html">| Contact |</p>
+    </div>
+  </div>
+  <div style="padding :25px; text-align: center;">
+    <a href="index.html"> <b style="font-size:10px; color :grey">Digital Talent Academy 2020.</b> </a>
+  </div>
+
+
+
+  <!-- </footer> -->
+  <!-- #endregion -->
+
+</body>
+
 </html>
 
+
+
+
+</body>
+
+</html>
